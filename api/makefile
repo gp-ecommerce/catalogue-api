@@ -1,6 +1,6 @@
 GOCMD = /usr/local/go/bin/go
 BUILD_PATH = ./build
-BINARY = $(BUILD_PATH)/server 
+BINARY = $(BUILD_PATH)/catalogue_api 
 TEST_PATH= ./test/...
 
 .PHONY: build test
